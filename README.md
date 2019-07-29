@@ -1,5 +1,7 @@
 https://raw.githubusercontent.com/larry0220/nlp_practice/master/README.md
 
+https://jsvine.github.io/intro-to-visidata/_downloads/021660fd27755eb60fd2ce4ea3d76a91/faa-wildlife-strikes.csv
+
 ##### http://mirror.centos.org/centos/7/os/x86_64/RPM-GPG-KEY-CentOS-7
 ##### conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
 
