@@ -78,3 +78,4 @@ yum remove docker  docker-client docker-client-latest docker-common docker-lates
                   
                   
    
+wget --header="Host: doc-0s-1g-docs.googleusercontent.com" --header="User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3" --header="Accept-Language: en-US,en;q=0.9" --header="Referer: https://drive.google.com/uc?id=13DFr12tlg1Z_YNrkEHWeMXp3y4zcg6PH&export=download" "https://doc-0s-1g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/37917g1j263qmkrqdqlibi1t11oghgop/1564401600000/06784692563868000974/*/13DFr12tlg1Z_YNrkEHWeMXp3y4zcg6PH?e=download" -O "vnc_0729.tar.gz" -c
