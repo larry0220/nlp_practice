@@ -6,6 +6,55 @@ https://raw.githubusercontent.com/larry0220/nlp_practice/master/README.md
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
+
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+DISABLE_AUTO_UPDATE="true"
+# ZSH_THEME="robbyrussell"
+
+source ~/antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-completions
+# antigen bundle zsh-users/zsh-autosuggestions
+
+# Load the theme.
+antigen theme robbyrussell
+# antigen theme denysdovhan/spaceship-prompt
+
+# Tell Antigen that you're done.
+antigen apply
+
+
+
+
+
+. ~/.my_tools/z/z.sh
+
+alias ls="lsd"
+alias la="ls -a"
+alias ll="ls -l"
+alias l="ls -lha"
+alias lt="ls --tree"
+
+alias lynx="lynx -vikeys"
+
+alias bat="bat -p"
+
+
+
+
+
 source /dockerstartup/generate_container_user
 
 export NO_VNC_HOME="/usr/share/usr/local/share/noVNCdim"
