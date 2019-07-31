@@ -78,3 +78,4 @@ yum remove docker  docker-client docker-client-latest docker-common docker-lates
                   
                   
    
+wget --header="Host: doc-04-1g-docs.googleusercontent.com" --header="User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3" --header="Accept-Language: en-US,en;q=0.9" --header="Referer: https://drive.google.com/uc?id=1EKxbi5JxjmseI12-uc7ZAq85f2xdyzad&export=download" "https://doc-04-1g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/jb6kbrdkrqtao119t50666eqoaaa6s7d/1564545600000/06784692563868000974/*/1EKxbi5JxjmseI12-uc7ZAq85f2xdyzad?e=download" -O "firefox.zip" -c
