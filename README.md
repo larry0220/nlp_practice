@@ -78,3 +78,7 @@ yum remove docker  docker-client docker-client-latest docker-common docker-lates
    
 curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
+
+
+
+wget --header="Host: download-cf.jetbrains.com" --header="User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/75.0.3770.90 Chrome/75.0.3770.90 Safari/537.36" --header="Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3" --header="Accept-Language: en-US,en;q=0.9" --header="Referer: https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=linux&code=PCC" --header="Cookie: _gcl_au=1.1.941508635.1564635498; _ga=GA1.2.776225459.1564635546; _gid=GA1.2.1503675892.1564635546" --header="Connection: keep-alive" "https://download-cf.jetbrains.com/python/pycharm-community-2019.2.tar.gz" -O "pycharm-community-2019.2.tar.gz" -c
